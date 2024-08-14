@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Card = ({ imagePath, title, description }) => {
   return (
-    <div className="max-w-sm shadow-md overflow-hidden">
+    <div className="max-w-sm shadow-md overflow-hidden hover:scale-105 transform transition">
       <img src={imagePath} alt={title} className="w-full h-50 object-cover" />
       <div className="p-4 bg-gray-100">
         <div className="flex items-center mb-2">

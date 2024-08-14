@@ -6,7 +6,7 @@ const Review = () => {
   return (
     <div className="grid grid-cols-3 gap-5">
       {reviews.map((value, index) => (
-        <div className="max-w-sm border overflow-hidden text-center px-6 py-4">
+        <div className="max-w-sm border shadow-md overflow-hidden text-center px-6 py-4">
           <div className="flex justify-center">
             <img
               src={value.image}
